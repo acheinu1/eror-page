@@ -1,0 +1,41 @@
+.container{
+    background-color: rgb(21,51,241);
+    background: linear-gradient(90deg, rgba(21,51,241,1) 30%, rgba(116,113,179,0.896796218487395) 79%);
+    width: 80%;
+    height: 500px;
+    padding: 80px;
+}
+
+.content{
+    background-color: white;
+    width: 90%;
+    height: 350px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 40px;
+    box-sizing: content-box;
+    border-radius: 1em;
+    
+}
+
+h1{
+    font-size: 6.5rem;
+    padding-top: 10px;
+    color: rgb(13, 13, 44);
+    
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 3em;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid grey;
+    }
+button:hover{
+    transition: .4s;
+    color: rgb(233, 173, 203);
+}
